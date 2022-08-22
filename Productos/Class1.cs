@@ -15,5 +15,6 @@ namespace Productos
         public int Cambio { get; set; }
         public string Nombre { get; set; }
         public int Faltante { get; set; }
+        public int Falta { get; set; }
     }
 }

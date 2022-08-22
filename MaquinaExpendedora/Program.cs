@@ -10,8 +10,11 @@ namespace MaquinaExpendedora
     {
         static void Main(string[] args)
         {
-            Maquina.Eleccion();
-            Maquina.Cambio();
+            int Total = Maquina.Eleccion();
+
+            Maquina.Cambio(Total);
+
+            Console.ReadKey();
             
         }
     }
